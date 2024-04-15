@@ -31,6 +31,27 @@ CodeAI is an AI-powered coding assistant that transforms software development pr
 4. Start the development server: `npm start`
 5. Access the local terminal through the provided interface and begin interacting with the AI features.
 
+**Directory structure**:
+
+CodeAI/
+│
+├── src/ # Source files for the AI features
+│ ├── index.js # Entry point for the application
+│ └── …
+│
+├── tests/ # Test scripts
+│ └── …
+│
+├── docs/ # Documentation files
+│ └── …
+│
+├── .gitignore # Specifies intentionally untracked files to ignore
+├── package.json # Node project manifest file
+├── README.md # Detailed project overview
+├── CONTRIBUTING.md # Contribution guidelines
+└── .eslintrc.json # ESLint configuration
+
+
 **How to Contribute**:
 We welcome contributions from the community. Please see our [CONTRIBUTING.md](http://contributing.md/) for detailed guidelines on how to propose bug fixes, suggest improvements, and submit pull requests.
 
